@@ -418,7 +418,7 @@ void CLog::LogStringToFile( const char *szString,bool bAdd )
 	}
 #endif
 
-	OutputDebugStringA(szTemp);
+    OutputDebugString(szTemp);
 
 	if (bAdd)
 	{
